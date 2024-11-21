@@ -1,0 +1,34 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 0, 0, 1, 0
+PRODUCTVERSION 0, 0, 1, 0
+FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+FILEFLAGS 0x1L
+#else
+FILEFLAGS 0x0L
+#endif
+FILEOS 0x4L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904b0"
+        {
+            VALUE "CompanyName", "kisir学习纪要\0"
+                VALUE "FileDescription", "这是一个通讯录软件\0"
+                VALUE "FileVersion", "1.0.0.1\0"
+                VALUE "InternalName", "kiki通讯录管理\0"
+                VALUE "LegalCopyright", "Copyright (C) 2023 kisir学习纪要\0"
+                VALUE "OriginalFilename", "通讯录管理系统.exe\0"
+                VALUE "ProductName", "kiki通讯录管理\0"
+                VALUE "ProductVersion", "beta v0.0.1\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 0x04B0
+    }
+}
