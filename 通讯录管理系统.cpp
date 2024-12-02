@@ -17,7 +17,7 @@ struct Lxr {
 // 创建联系人数组和计数变量
 Lxr txl[MAX];
 int n = 0;
-
+//ewd
 // 显示菜单
 void menu() {
     cout << "*********通讯录********" << endl;
